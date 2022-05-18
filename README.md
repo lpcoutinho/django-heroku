@@ -19,7 +19,9 @@ ou
 - pip install django
 
 ## Crie o projeto django
-- django-admin startproject meuProjeto
+- django-admin startproject meuProjeto .
+
+O *.* ao fim do código o projeto django será criado direto na raiz do projeto
 
 ## Crie o repositório Git
 - git init
