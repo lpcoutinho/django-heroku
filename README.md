@@ -60,7 +60,7 @@ ou
 ### Settings.py
 - Atualize o código
 ```
-from dj_database_url import parse as dburl
+import dj_database_url
 
 DATABASES = {}
 
