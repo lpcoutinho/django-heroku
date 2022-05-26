@@ -124,7 +124,7 @@ https://devcenter.heroku.com/articles/heroku-cli
 ## Publique o app
 - git add .
 - git commit -m 'Configurando app'
-- git push heroku master
+- git push heroku main
 
 ## Criando o banco de dados (se você estiver usando seu próprio banco de dados não precisa)
 - heroku run python3 manage.py migrate
