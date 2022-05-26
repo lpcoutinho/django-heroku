@@ -1,5 +1,6 @@
 # django-heroku
 Configuração mínima para hospedar um projeto Django no Heroku
+- Baseado em: https://www.youtube.com/watch?v=KczDMzeyiLU
 
 ## Crie o diretório do projeto
 - mkdir nomeDaPasta
@@ -24,17 +25,10 @@ ou
 O *.* ao fim do código o projeto django será criado direto na raiz do projeto
 
 ## Crie o repositório Git
+Crie um arquivo chamado `.gitignore`
+https://github.com/github/gitignore/blob/main/Python.gitignore
+
 - git init
-Crie um arquivo chamado `.gitignore` com o seguinte conteúdo:
-```
-# Verifique sua IDE
-.idea
-# Caso estiver usando sqlite3
-*.sqlite3
-# Nome da virtual env
-.vEnv
-*pyc
-```
 - git add .
 - git commit -m 'First commit'
 
